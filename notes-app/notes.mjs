@@ -11,8 +11,6 @@ export const addNote = (title, body) => {
 	const notes = loadNotes();
 	const duplicateNotes = notes.find((note) => note.title === title);
 
-	debugger;
-
 	if (!duplicateNotes) {
 		notes.push({
 			title,
