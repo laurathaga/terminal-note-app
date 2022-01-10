@@ -2,6 +2,8 @@
 
 - This is a primitive application only using NodeJs without User Interface!!!
 
+- First redirect to "notes-app/" folder and then apply the commands
+
 - Open the terminal and enter " node app.mjs <command>"
 
 - For listing all the possible Commnads type " node app.mjs --help "
